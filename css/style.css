@@ -1,0 +1,312 @@
+body {
+  overflow-x: hidden;
+}
+
+.home-section {
+  margin-top: 100px;
+}
+.h-home {
+  font-size: 75px;
+}
+
+.slickSlider {
+  margin: auto;
+  margin-left: 60px;
+}
+.slickSlider .item {
+  padding-left: 10px;
+}
+
+@media (max-width: 1100px) {
+  .h-home {
+    font-size: 50px;
+  }
+  #features {
+    margin-top: 100px;
+  }
+  .imag-bower {
+    margin-top: 150px;
+  }
+  .span-h1-power {
+    font-size: 30px;
+  }
+  .ul-power {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .home-section {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slickSlider .item {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+  }
+}
+
+.name-articles {
+  font-size: 11px;
+}
+
+.p-home {
+  font-size: 22px;
+}
+
+.button-one {
+  background-color: #05182b;
+}
+
+.button-two {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #7a14ff;
+}
+
+li {
+  list-style: none;
+}
+
+.div-detaails {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.div-detaails1 {
+  opacity: 1;
+}
+
+.div-button {
+  width: 445px;
+  padding: 17px 47px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.div-cicle {
+}
+
+.div-cicle-one i {
+  border-radius: 40px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  background-color: #ff6726;
+  color: white;
+  font-size: 50px;
+}
+.div-cicle-two i {
+  border-radius: 40px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  background-color: #2fd9c4;
+  color: white;
+  font-size: 50px;
+}
+.div-cicle-three i {
+  border-radius: 40px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  background-color: rgb(18, 127, 223);
+  color: white;
+  font-size: 50px;
+}
+
+.the-team-section {
+  background-color: rgb(250 250 250);
+}
+
+.img-background {
+  background-image: url("../images/section-bg-img2.jpg");
+  height: 1200px;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: black;
+  position: absolute;
+  opacity: 0.9;
+  z-index: 3;
+  margin-right: 0;
+  margin-left: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.variable-width {
+  /* width: 30%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.variable-width-img {
+  width: 96%;
+  height: 400px;
+  padding: 0;
+}
+
+/* .img-carser {
+  width: 40%;
+  height: 440px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.bac-section {
+  display: flex;
+  background-image: url("../images/section-bg-img2.jpg");
+  width: 100%;
+  height: 900px;
+  position: relative;
+  background-size: cover;
+}
+
+.bac-section .overlaw {
+  background-color: #05182b;
+  position: absolute;
+  opacity: 0.9;
+  z-index: 0;
+  margin-right: 0;
+  margin-left: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 110px;
+}
+
+.span-title,
+.h1-title {
+  font-size: 50px;
+}
+.p-title {
+  font-size: 22px;
+  color: #d9d7db;
+}
+.pricing-section {
+  background-color: rgb(250 250 250);
+}
+
+.button-2 {
+  background-color: #7a14ff;
+  color: white;
+  z-index: 2;
+}
+.button-2:hover {
+  background-color: #05182b;
+  color: white;
+}
+.buttonc-1-3 {
+  z-index: -1;
+}
+.button-1-3:hover {
+  background-color: #05182b;
+  color: white;
+}
+
+.span-property,
+h5 {
+  color: #7a14ff;
+}
+
+.span-property:hover {
+  color: black;
+  cursor: pointer;
+}
+.p-property {
+  font-weight: 400;
+}
+.contact-section {
+  background-color: rgb(250 250 250);
+}
+
+.textarea-form {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.submit-button-form {
+  position: absolute;
+  right: 11%;
+  bottom: 3%;
+  background-color: #7a14ff;
+  font-size: 20px;
+}
+.submit-button-form:hover {
+  background-color: #05182b;
+}
+
+footer {
+  background-color: #05182b;
+  color: gray;
+  font-size: medium;
+}
+
+footer li {
+  list-style: none;
+  line-height: 2.2;
+  font-size: 18px;
+}
+
+.chat-icon {
+  color: #7a14ff;
+  font-size: 22px;
+}
+
+.icon-home {
+  color: #05182b;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: inline;
+}
+
+.icon-home:hover {
+  color: #7a14ff;
+}
+
+.fa-arrow-circle {
+  z-index: 90;
+}
+
+@media (min-width: 480px) {
+  .icon-card,
+  .user-icon-m {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.flexible-color {
+  background-color: #7afc71;
+}
+.real-time-color {
+  background-color: #e0bb65;
+}
+.advance-color {
+  background-color: #6577e0;
+}
+.single-color {
+  background-color: #78f4ab;
+}
+.custom-color {
+  background-color: #fcee71;
+}
+.user-color {
+  background-color: #e0a065;
+}
